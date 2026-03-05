@@ -4,7 +4,7 @@ import matplotlib.dates as mdates
 import seaborn as sns
 
 # Load and prepare data
-df = pd.read_csv('trump_2024_daily_history.csv', parse_dates=['date'])
+df = pd.read_csv('Milestone1/trump_2024_daily_history.csv', parse_dates=['date'])
 df['date_only'] = df['date'].dt.date
 
 sns.set_theme(style='whitegrid')
